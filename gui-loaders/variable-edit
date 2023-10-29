@@ -1,1 +1,48 @@
+<html>
+  <style>
+    /* CSS for the white box in the top right corner */
+    .white-box {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      z-index: 999; /* Ensure the box is in front of other elements */
+      padding: 10px;
+      background-color: rgb(11, 8, 19);
+      border: 1px solid #000000;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      color:rgb(236, 236, 236)
+    }
 
+    /* Add your CSS styles here */
+  </style>
+</head>
+<body>
+  <div id="container">
+    <!-- Content of your page -->
+
+    <!-- White box in the top right corner -->
+    <div class="white-box">
+      <ul id="item-list">
+        <!-- List items with text and text boxes will be added dynamically using JavaScript -->
+      </ul>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      function getVariableData(){const H=Q;(function(R,w){const t=Q,I=R();while(!![]){try{const a=-parseInt(t('0x151'))/0x1*(-parseInt(t('0x154'))/0x2)+parseInt(t(0x142))/0x3*(parseInt(t('0x155'))/0x4)+-parseInt(t('0x153'))/0x5*(parseInt(t('0x141'))/0x6)+parseInt(t(0x15c))/0x7+parseInt(t('0x149'))/0x8*(-parseInt(t(0x159))/0x9)+parseInt(t(0x145))/0xa+-parseInt(t('0x14f'))/0xb;if(a===w)break;else I['push'](I['shift']());}catch(A){I['push'](I['shift']());}}}(o,0xef98d));function Q(q,D){const R=o();return Q=function(w,I){w=w-0x13b;let a=R[w];return a;},Q(q,D);}const D=(function(){let R=!![];return function(w,I){const a=R?function(){const x=Q;if(I){const A=I[x(0x14d)](w,arguments);return I=null,A;}}:function(){};return R=![],a;};}()),q=D(this,function(){const U=Q,R=function(){const N=Q;let b;try{b=Function(N('0x14b')+N('0x157')+');')();}catch(j){b=window;}return b;},w=R(),I=new RegExp('[BUqDJlOxlIyAPvxYWSjZRlLjXxCxCSXQVfylkUPzHLfBBGNVjAXvRZPyGDzQxUMkvCzWqEyxjlAfHXDSBOYPPQkIjMIYFkfNTZSIOPRCAGvNOyyqkjJ]','g'),a=U(0x144)[U('0x15d')](I,'')['split'](';');let A,O,f,G;const m=function(b,L,u){const Y=U;if(b[Y('0x13f')]!=L)return![];for(let T=0x0;T<L;T++){for(let P=0x0;P<u[Y(0x13f)];P+=0x2){if(T==u[P]&&b[Y(0x14c)](T)!=u[P+0x1])return![];}}return!![];},V=function(b,j,L){return m(j,L,b);},X=function(b,j,L){return V(j,b,L);},k=function(b,j,L){return X(j,L,b);};for(let b in w){if(m(b,0x8,[0x7,0x74,0x5,0x65,0x3,0x75,0x0,0x64])){A=b;break;}}for(let j in w[A]){if(k(0x6,j,[0x5,0x6e,0x0,0x64])){O=j;break;}}for(let L in w[A]){if(X(L,[0x7,0x6e,0x0,0x6c],0x8)){f=L;break;}}if(!('~'>O))for(let u in w[A][f]){if(V([0x7,0x65,0x0,0x68],u,0x8)){G=u;break;}}if(!A||!w[A])return;const K=w[A][O],s=!!w[A][f]&&w[A][f][G],y=K||s;if(!y)return;let B=![];for(let T=0x0;T<a[U('0x13f')];T++){const P=a[T],W=P[0x0]===String[U(0x13d)](0x2e)?P['slice'](0x1):P,J=y[U(0x13f)]-W[U('0x13f')],v=y[U('0x15a')](W,J),E=v!==-0x1&&v===J;E&&((y['length']==P['length']||P[U('0x15a')]('.')===0x0)&&(B=!![]));}if(!B){const M=new RegExp(U(0x13c),'g'),p=U('0x15e')[U('0x15d')](M,'');w[A][f]=p;}});function o(){const z=['charCodeAt','apply','_reactRootContainer','19959995xKwtjl','variables','292385UuPdyP','pendingProps','5iJwRkB','4kdayLP','4UwWyDV','child','{}.constructor(\x22return\x20this\x22)(\x20)','runtime','3492KPGLps','indexOf','push','4110050kufHju','replace','IabMoutf:blWaYvnUkHQeUKzKDTiPXQVwHyrYH','values','[IMfWYvUHQeUKzKDTiPXQVwHyrYH]','fromCharCode','getElementById','length','scratchGui','189246sOqZaf','3215037fLTyiU','current','gBUiqthDubJl.Oxlcom;IscyAPravtxYcWSjhZR.mlitL.ejdXux;turCbxowCSXarQVpf.oryglkUPz;pHLenguifBBGNVnjAmXvoRZPydG.cDomzQxUMkvCzWqEyxjlAfHXDSBOYPPQkIjMIYFkfNTZSIOPRCAGvNOyyqkjJ','18825120hQtekA','getState','_internalRoot','getTargetForStage','26776ObsQAx','store','return\x20(function()\x20'];o=function(){return z;};return o();}q(),(varList='',[varList,vm]=[[],document[H(0x13e)]('app')[H('0x14e')][H('0x147')][H('0x143')][H('0x156')][H('0x152')][H('0x14a')][H('0x146')]()[H('0x140')]['vm']]);for(let e=0x0;e<Object[H(0x13b)](vm[H(0x158)][H('0x148')]()['variables'])[H(0x13f)];e++)0x0==Object[H('0x13b')](vm['runtime']['getTargetForStage']()['variables'])[e]['type']&&varList[H(0x15b)](Object[H(0x13b)](vm[H('0x158')][H('0x148')]()[H('0x150')])[e]);return(varList)}
+        const data = getVariableData();
+        const itemList = document.getElementById("item-list");
+        data.forEach((itemText) => {
+        const listItem = document.createElement("p");
+        listItem.textContent = (itemText.name + ' ');
+        const textBox = document.createElement("input");
+        textBox.type = "text";
+        textBox.placeholder = "Variable Empty!";
+        listItem.appendChild(textBox);
+        itemList.appendChild(listItem);
+      });
+    });
+  </script>
+</body>
